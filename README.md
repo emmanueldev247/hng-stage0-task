@@ -71,10 +71,6 @@ If the Cat Facts API fails or times out, the endpoint responds 200 with a fallba
 4. #### Run
 
    ```bash
-   ./run.sh
-
-   # or
-
    uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
    ```
 
